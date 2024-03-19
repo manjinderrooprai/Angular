@@ -1,11 +1,10 @@
-# AngularSimpleExample
-
-AngularSimpleExample is a straightforward Angular starting project utilizing Angular version 17. This project aims to provide a minimalistic yet functional template for those beginning their journey with Angular development. It includes essential configurations and a basic structure to kickstart your Angular project development process.
+# Angular
+Welcome to the Angular PoCs (Proof of Concepts) repository! This repository serves as a collection of Angular Proof of Concepts, demonstrating various features, techniques, and integrations within Angular applications.
 
 [Angular.dev](https://angular.dev/)
 
 ## Development Server
-AngularSimpleExample utilizes the Angular CLI for development tasks. You can use the following commands:
+Angular utilizes the Angular CLI for development tasks. You can use the following commands:
 
 * **Development server:** ng serve
 * **Build:** ng build
@@ -14,7 +13,7 @@ AngularSimpleExample utilizes the Angular CLI for development tasks. You can use
 
 ## Setup
 - Clone Git Repository  `git@github.com:manjinderrooprai/Angular.git`
-- Navigate to the project directory `cd Angular`
+- Navigate to the project directory `cd Angular/project-name`
 - Install dependencies `npm install`
 - Run `ng serve` for a dev server.
 - Navigate to `http://localhost:4200/` The app will automatically reload if you change any of the source files.

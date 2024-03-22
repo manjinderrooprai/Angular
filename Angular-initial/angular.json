@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Angular-simple-example": {
+    "Angular-initial": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/angular-simple-example",
+            "outputPath": "dist/angular-initial",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Angular-simple-example:build:production"
+              "buildTarget": "Angular-initial:build:production"
             },
             "development": {
-              "buildTarget": "Angular-simple-example:build:development"
+              "buildTarget": "Angular-initial:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Angular-simple-example:build"
+            "buildTarget": "Angular-initial:build"
           }
         },
         "test": {

@@ -19,17 +19,17 @@ Welcome to the Angular PoCs (Proof of Concepts) repository! This repository serv
   `npm install -g @angular/cli`
 
 ### Setup
-1. Clone the Repository:
+1. **Clone the Repository:**
    `git@github.com:manjinderrooprai/Angular.git`
-2. Open Directory:
+2. **Open Directory:**
    `cd ~/Angular`
-3. Open Project in Vscode:
+3. **Open Project in Vscode:**
    `code .`
-4. Go to specific project directory:
+4. **Go to specific project directory:**
    `cd Specific-project`
-5. Install dependencies:
+5. **Install dependencies:**
    `npm install`
-6. Run the development server:
+6. **Run the development server:**
    `ng serve`
    
 Once the application has started, you can access it by opening a web browser and navigating to http://localhost:8000](https://locall.host/4200/ (assuming the application runs on port 4200).

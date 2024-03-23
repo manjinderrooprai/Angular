@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './main-header.component.css'
 })
 export class MainHeaderComponent {
-  headerName ="Employee Deatils"
+  headerTitle ="Employee Management System"
 
 }

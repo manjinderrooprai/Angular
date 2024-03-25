@@ -44,6 +44,38 @@ Angular utilizes the Angular CLI for development tasks. You can use the followin
 * **Unit tests:** ng test
 * **End-to-end tests:** ng e2e
 
+## Json Server
+1. **Install** `npm install json-server`
+2. **Create a db.json or db.json5 file:**
+`{ "employees":[
+  {
+    "id": 1,
+    "firstName": "Santhosh",
+    "lastName": "Vernekar",
+    "age": 30,
+    "email": "santosh@gmail.com",
+    "phoneNumber": "9999999999",
+    "address": "111-5770 Hastings st, burnaby, bc, canada"
+  },
+  {
+    "id": 2,
+    "firstName": "Virat",
+    "lastName": "Kohli",
+    "age": 28,
+    "email": "Virat@gmail.com",
+    "phoneNumber": "9999999900",
+    "address": "111-5777 Hastings st, burnaby, bc, canada"
+  }
+]
+}`
+3. **Run Sever:** 'npx json-server db.json'
+4. **Get a REST API**
+`$ curl http://localhost:3000/employees/1
+{
+  "id": "1",
+  "title": "a title"
+}`
+
 ## Projcet Structure
 **The project follows a standard Angular folder structure.**
 - **src/:** Contains the source files for the Angular application.

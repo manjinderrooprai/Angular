@@ -1,0 +1,22 @@
+{
+    "employees": [
+      {
+        "id": 1,
+        "firstName": "Santhosh",
+        "lastName": "Vernekar",
+        "age": 30,
+        "email": "santosh@gmail.com",
+        "phoneNumber": "9999999999",
+        "address": "111-5770 Hastings st, burnaby, bc, canada"
+      },
+      {
+        "id": 2,
+        "firstName": "Virat",
+        "lastName": "Kohli",
+        "age": 28,
+        "email": "Virat@gmail.com",
+        "phoneNumber": "9999999900",
+        "address": "111-5777 Hastings st, burnaby, bc, canada"
+      }
+    ]
+  }

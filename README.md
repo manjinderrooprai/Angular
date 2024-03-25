@@ -71,7 +71,7 @@ Angular utilizes the Angular CLI for development tasks. You can use the followin
 }
 ```
 3. **Run Sever:** 'npx json-server db.json'
-4. **Get a REST API**
+4. **Get a REST api:**
 ```
 $ curl http://localhost:3000/employees/1
    {

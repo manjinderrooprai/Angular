@@ -47,7 +47,7 @@ Angular utilizes the Angular CLI for development tasks. You can use the followin
 ## Json Server
 1. **Install** `npm install json-server`
 2. **Create a db.json or db.json5 file:**
-`{ "employees":[
+```{ "employees":[
   {
     "id": 1,
     "firstName": "Santhosh",
@@ -67,14 +67,14 @@ Angular utilizes the Angular CLI for development tasks. You can use the followin
     "address": "111-5777 Hastings st, burnaby, bc, canada"
   }
 ]
-}`
+}```
 3. **Run Sever:** 'npx json-server db.json'
 4. **Get a REST API**
-`$ curl http://localhost:3000/employees/1
+```$ curl http://localhost:3000/employees/1
 {
   "id": "1",
   "title": "a title"
-}`
+}```
 
 ## Projcet Structure
 **The project follows a standard Angular folder structure.**

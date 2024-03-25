@@ -79,6 +79,7 @@ $ curl http://localhost:3000/employees/1
    "title": "a title"
    }
 ```
+**Run json-server --help for a list of options.**
 
 ## Projcet Structure
 **The project follows a standard Angular folder structure.**

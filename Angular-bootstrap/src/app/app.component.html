@@ -1,5 +1,4 @@
 <div class="container-fluid g-0">
-
   <!--- Header -->
   <app-main-header></app-main-header>
   <!-- Main -->
@@ -7,10 +6,11 @@
     <!--- Toolbar to manage employees -->
     <div class="toolbar">
       <div class="add-employee">
-        <button type="button" class="btn btn-success">Add Employee</button>
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addEmployeeModal">Add
+          Employee</button>
       </div>
       <div class="search-employees">
-        <input class="form-control me-2" type="search" placeholder="Search Employees" aria-label="Search">
+        <input class="form-control" type="search" placeholder="Search Employees">
       </div>
     </div>
     <!--- Display employees here -->
@@ -23,6 +23,47 @@
         </div>
       </div>
     </div>
-
   </main>
+</div>
+<!-- Modal -->
+<div class="modal fade modal-lg" id="addEmployeeModal" tabindex="-1" aria-labelledby="addEmployeeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content modal-lg">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="addEmployeeModalLabel">Employee Details</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Enter first name">
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Enter last name">
+          </div>
+          <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="number" class="form-control" id="age" placeholder="Enter age">
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">Phone Number:</label>
+            <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter phone number">
+          </div>
+          <div class="form-group">
+            <label for="address">Address:</label>
+            <textarea class="form-control" id="address" rows="3" placeholder="Enter address"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Add Employee</button>
+      </div>
+    </div>
+  </div>
 </div>

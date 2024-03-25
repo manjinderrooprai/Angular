@@ -1,0 +1,40 @@
+main {
+    width: 90%;
+    margin: 3rem auto 0px;
+}
+
+.toolbar {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.add-employee {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-employees {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-employess input {
+    width: 900%;
+    height: 100%;
+}
+
+.form-group {
+    margin: 1rem auto 0px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
